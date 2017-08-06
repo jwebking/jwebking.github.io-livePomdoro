@@ -100,9 +100,7 @@ var breakClock = {
     }
   },
   startBreak: function () {
-    if (starting.wClock === 0){
     this.breakInterval = setInterval(this.countDown.bind(breakClock), 1000);
-    }
   },
   stopBreak: function () {
     clearInterval(this.breakInterval);
