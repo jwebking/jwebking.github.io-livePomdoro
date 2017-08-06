@@ -50,14 +50,16 @@ var mainClock = {
       }
     }
     if (starting.clock === 0 && starting.bClock !== 0) {
+      breakClock.startBreak();
+      this.stopClock();
       var audio = new Audio(
         "http://www.wavsource.com/snds_2017-05-21_1278357624936861/animals/panther.wav"
       );
       audio.play();
 
-      this.stopClock();
+    
       //insert audio play file here and make sure it plays at 0's
-      breakClock.startBreak();
+      
     }
   },
   startClock: function () {
