@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+@font-face {
+    font-family: Barrio;
+    src: url(https://fonts.googleapis.com/css?family=Barrio);
+}
+
+.container{
+  padding-top: 40px;
+}
+
+input[type=text] {
+  width: 80px;
+  font-size: 30px;
+  border: white;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.words {
+  color: white;
+  font-size: 30px;
+  font-family: Barrio;
+}
+
+.plus, .minus{
+  background: transparent;
+  color: white;
+  border: white;
+  font-family: 'Barrio';
+  font-size: 30px;
+}
+
+#pause, #start, #reset {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  font-family: Barrio;
+  font-size: 40px;
+  margin: 5px;
+}
+
+body {
+  background: linear-gradient(180deg,#050348, #F50442);
+  font-family: 'Barrio';
+  font-size: 30px;
+}
+
+.title {
+  font-family: Barrio;
+  font-size: 100px;
+  color: white;
+}
+
+#countLine {
+  background: transparent;
+  border-radius: 10px;
+  position: relative;
+  height: 20px;
+  max-width: 1500px;
+}
+
+#progressBar {
+  display: block;
+  background: white;
+  position: relative;
+  height: 100%;
+  width: 0%;
+  max-width: 1500px;
+  border-radius: 10px;
+}
+
+
+/* #F50442  really nice pink/red */

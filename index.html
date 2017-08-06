@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+  <div class="container text-center">
+    <div id="title">
+      <p class="title">Pomodoro Clock</p>
+      <span></span>
+    </div>
+    <div class="timer">
+
+      <!--amount of time you want to work -->
+      <span class="words">Work Time</span>
+      <div class="timeButton">
+        <button type="button" class="plus" onclick="mainClock.changeTime('wPlus')">+</button>
+
+        <input id="wMin" type="text" value=25:00 class="text-center">
+
+        <button type="button" class="minus" onclick="mainClock.changeTime('wMinus')">-</button>
+
+
+      </div>
+
+      <br>
+
+      <!-- amount of time you want to take a break for -->
+      <span class="words">Break Time</span>
+      <div class="timeButton">
+        <button type="button" class="plus" onclick="mainClock.changeTime('bPlus')">+</button>
+
+        <input id="bMin" type="text" value=5:00 class="text-center">
+
+        <button type="button" class="minus" onclick="mainClock.changeTime('bMinus')">-</button>
+
+      </div>
+
+
+      <br>
+
+    </div>
+    <!--end of timer -->
+
+    <div class="buttons">
+      <!--the control buttons for starting, stopping, pausing and reset -->
+      <button type="button" id="start" class="btn start" onClick="mainClock.startClock()">Start</button>
+      <button type="button" class="btn pause" id="pause" onClick="mainClock.stopClock(); breakClock.stopBreak()">Pause</button>
+      <button type="button" class="btn reset" id="reset" onclick="mainClock.clockReset()">Reset</button>
+    </div>
+    <br>
+
+    <div id="countLine">
+      <span id="progressBar"></span>
+    </div>
+  </div>
+</body>
+
+</html>
