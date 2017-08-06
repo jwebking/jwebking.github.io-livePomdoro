@@ -18,7 +18,7 @@ var mainClock = {
       starting.clock = starting.clockCount;
       starting.progClock = starting.clockCount;
       document.getElementById("wMin").value = starting.clock / 60 + ":" + "00";
-    } else if (targetID === "wMinus" && starting.clockCount >= 0) {
+    } else if (targetID === "wMinus" && starting.clockCount = 0) {
       starting.clockCount -= 60;
       starting.clock = starting.clockCount;
       starting.progClock = starting.clockCount;
