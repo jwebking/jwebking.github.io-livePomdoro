@@ -8,6 +8,7 @@
 .container{
   padding-top: 40px;
   margin: 0 auto;
+  height: 100%;
 }
 
 input[type=text] {
@@ -19,15 +20,12 @@ input[type=text] {
   color: white;
 }
 
-html {
-    height: 100%;
-}
 
 body {
     height: 100%;
-    margin: 0;
+    margin: 0 auto;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+/*     background-attachment: fixed; */
     background: linear-gradient(180deg,#050348, #F50442);
     font-family: 'Barrio';
     font-size: 30px;
