@@ -52,10 +52,14 @@ body {
   margin: 5px;
 }
 
-body {
+html {
   background: linear-gradient(180deg,#050348, #F50442);
   font-family: 'Barrio';
   font-size: 30px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .title {
@@ -81,6 +85,7 @@ body {
   max-width: 1500px;
   border-radius: 10px;
 }
+
 
 
 /* #F50442  really nice pink/red */
