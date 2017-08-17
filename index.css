@@ -27,6 +27,9 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+      background: linear-gradient(180deg,#050348, #F50442);
+  font-family: 'Barrio';
+  font-size: 30px;
 }
 
 .words {
@@ -52,11 +55,7 @@ body {
   margin: 5px;
 }
 
-body {
-  background: linear-gradient(180deg,#050348, #F50442);
-  font-family: 'Barrio';
-  font-size: 30px;
-}
+
 
 .title {
   font-family: Barrio;
