@@ -26,9 +26,7 @@ body {
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
-    background: linear-gradient(180deg,#050348, #F50442);
-    font-family: 'Barrio';
-    font-size: 30px;
+    background-attachment: fixed;
 }
 
 .words {
@@ -54,7 +52,11 @@ body {
   margin: 5px;
 }
 
-
+body {
+  background: linear-gradient(180deg,#050348, #F50442);
+  font-family: 'Barrio';
+  font-size: 30px;
+}
 
 .title {
   font-family: Barrio;
@@ -79,7 +81,5 @@ body {
   max-width: 1500px;
   border-radius: 10px;
 }
-
-
 
 /* #F50442  really nice pink/red */
